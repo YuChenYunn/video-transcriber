@@ -1,0 +1,22 @@
+{
+  "_说明": "把本文件复制一份改名为 settings.json（与本文件同目录），再按需填写；settings.json 已被 .gitignore 排除，不会上传。也可以不建这个文件、直接在程序界面里填写，程序会自动保存。hf_token 只在需要说话人分离（diarize）时填；llm_api_key 只在需要 AI 润色时填；output_dir 留空则使用程序内置默认目录，建议改成自己的文件夹。",
+  "url": "",
+  "model": "base",
+  "language": "",
+  "output_dir": "",
+  "yt_dlp_path": "",
+  "ffmpeg_path": "",
+  "whisper_path": "",
+  "cookies_path": "",
+  "cookies_browser": "",
+  "keep_audio": false,
+  "engine": "whisperx",
+  "whisperx_python": "",
+  "hf_token": "",
+  "diarize": false,
+  "compute_type": "auto",
+  "batch_size": 16,
+  "llm_base_url": "https://api.deepseek.com/v1",
+  "llm_api_key": "",
+  "llm_model": "deepseek-v4-flash"
+}

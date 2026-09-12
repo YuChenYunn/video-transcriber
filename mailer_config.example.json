@@ -1,0 +1,11 @@
+{
+  "_说明": "把本文件复制一份改名为 mailer_config.json（与本文件同目录），把下面几项改成你自己的信息。QQ 授权码获取：QQ邮箱网页端 -> 设置 -> 账户 -> 开启 IMAP/SMTP 服务 -> 生成授权码。mailer_config.json 已被 .gitignore 排除，不会上传。",
+  "smtp_host": "smtp.qq.com",
+  "smtp_port": 465,
+  "smtp_user": "你的QQ邮箱",
+  "smtp_pass": "这里填授权码",
+  "from_addr": "你的QQ邮箱",
+  "to_addr": "你的QQ邮箱",
+  "watch_dir": "D:\\transcripts",
+  "extensions": [".txt", ".md", ".docx"]
+}
